@@ -7,7 +7,6 @@ The project is designed to build and demonstrate core data engineering skills su
 1. Project Overview
 
 This project follows a complete workflow from uploading data to HDFS to performing analysis using PySpark RDD transformations.
-
 1.1 Steps Covered
 
 1. Uploading the dataset to HDFS
