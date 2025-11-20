@@ -1,62 +1,58 @@
 Mall Customers Analysis Using PySpark (RDD)
-A Beginner-Friendly Data Engineering Project Using Google Cloud Dataproc and Hadoop (HDFS)
+A Beginner Data Engineering Project Using Google Cloud Dataproc and Hadoop (HDFS)
 
-This repository contains a complete end-to-end beginner data engineering project where I process the Mall Customers dataset using PySpark RDDs on a Hadoop-based Google Cloud Dataproc cluster.
+This repository contains an end-to-end beginner data engineering project where the Mall Customers dataset is processed using PySpark RDDs on a Hadoop-based Google Cloud Dataproc cluster.
+The project is designed to build and demonstrate core data engineering skills such as distributed processing, HDFS file handling, and PySpark transformations.
 
-The goal of this project is to practice core data engineering skills such as distributed processing, HDFS storage, PySpark RDD transformations, and working with real datasets.
+1. Project Overview
 
-Project Overview
+This project follows a complete workflow from uploading data to HDFS to performing analysis using PySpark RDD transformations.
 
-This project covers the full workflow:
+1.1 Steps Covered
 
-Uploading the dataset to HDFS
+1. Uploading the dataset to HDFS
 
-Reading CSV data using PySpark RDD
+2. Reading a CSV file using PySpark RDD
 
-Applying narrow transformations
+3. Applying narrow transformations
+   a) map
+   b) filter
 
-map
+4. Applying wide transformations
+   a) reduceByKey
 
-filter
+5. Analyzing customer profiles and spending behavior
 
-Applying wide transformations
+6. Running everything on a Google Cloud Dataproc cluster
 
-reduceByKey
+The project marks the beginning of my learning path as I transition into data engineering.
 
-Performing profile and behavior analysis
+2. Dataset Information
 
-Working with a real Dataproc cluster (GCP)
+The project uses the Mall Customers dataset, commonly used for customer segmentation and behavior analysis.
 
-This project shows my learning journey as I begin transitioning into data engineering.
+2.1 Dataset Columns
 
-Dataset Information
+1. CustomerID — Unique customer identifier
 
-The project uses the Mall Customers dataset from Kaggle.
+2. Genre — Gender of the customer
 
-The dataset contains customer information, including age group, gender, earning level, and mall spending behavior. The data is generally used for clustering, segmentation, and behavioral analysis.
+3. Age — Age of the customer
 
-Columns in the dataset:
+4. Annual Income (k$) — Annual income in thousands of dollars
 
-CustomerID — Unique customer identifier
+5. Spending Score (1–100) — Score assigned by the mall based on spending behavior
 
-Genre — Gender (Male or Female)
+The dataset helps in understanding spending habits, demographic groups, and customer segmentation patterns.
 
-Age — Customer age
+3. Technologies Used
 
-Annual Income (k$) — Annual income measured in thousands of dollars
+1. PySpark (RDD API)
 
-Spending Score (1–100) — Customer spending score given by the mall
+2. Hadoop HDFS
 
-This dataset helps understand spending patterns and demographics across customer segments.
+3. Google Cloud Dataproc
 
-Technologies Used
+4. Python
 
-PySpark RDD API
-
-Hadoop HDFS
-
-Google Cloud Dataproc
-
-Jupyter Notebook
-
-Python
+5. Jupyter Notebook
